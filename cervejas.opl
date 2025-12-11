@@ -1,0 +1,51 @@
+Tripulação reunida!
+
+Mudar recompensa para 99 Yohohoho Começamos com 99
+
+Enquanto houver esperança... {
+
+    Yohohoho --- Verifica gramática e fim ---
+    Se o Tesouro Atual for Maior que 2 {
+        Gritar nível de poder
+        Registrar Entrada no Diário: " garrafas de cerveja no muro.\n"
+        Gritar nível de poder
+        Registrar Entrada no Diário: " garrafas de cerveja.\n"
+        Registrar Entrada no Diário: "Tira uma, passa pra frente...\n"
+
+        Pagar a Nami
+        Yohohoho --- (Diminui 1 da recompensa)
+        
+        Registrar Entrada no Diário: "Agora restam "
+        Gritar nível de poder
+        Registrar Entrada no Diário: " garrafas de cerveja no muro.\n\n"
+    Fim da verificação.
+        
+    Yohohoho --- Ajuste gramatical ---    
+    Se o Tesouro Atual for Igual a 2 {
+        Gritar nível de poder
+        Registrar Entrada no Diário: " garrafas de cerveja no muro.\n"
+        Gritar nível de poder
+        Registrar Entrada no Diário: " garrafas de cerveja.\n"
+        Registrar Entrada no Diário: "Tira uma, passa pra frente...\n"
+        Pagar a Nami
+        Registrar Entrada no Diário: "Agora resta "
+        Gritar nível de poder
+        Registrar Entrada no Diário: " garrafa de cerveja no muro.\n\n"
+    Fim da verificação.
+        
+    Yohohoho --- Ajusta gramática e fim ---  
+    Se o Tesouro Atual for Igual a 1 {
+        Gritar nível de poder
+        Registrar Entrada no Diário: " garrafa de cerveja no muro.\n"
+        Gritar nível de poder
+        Registrar Entrada no Diário: " garrafa de cerveja.\n"
+        Registrar Entrada no Diário: "Tira uma, passa pra frente...\n"
+        Pagar a Nami
+        Registrar Entrada no Diário: "Agora não resta nenhuma garrafa no muro!\n\n"
+    Fim da verificação.
+
+Fim do ciclo.
+
+Registrar Entrada no Diário: "Fim da festa! Vamos para a próxima ilha.\n"
+
+Fim da Jornada.
